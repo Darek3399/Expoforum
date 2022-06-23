@@ -1,0 +1,71 @@
+.footer {
+	padding-top: 60px;
+	padding-bottom: 20px;
+	background: #30BCC9;
+	&__left-columns {
+		display: flex;
+		flex-wrap: wrap;
+		width: 90%;
+	}
+	&__column {
+		gap: 10px;
+		margin-bottom: 40px;
+		width: 33.333%;
+		display: flex;
+		flex-direction: column;
+	}
+	&__title {
+		padding-bottom: 10px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 21px;
+		line-height: 130%;
+		color: #FFFFFF;
+	}
+	&__link {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 135%;
+		color: #E0E0E0;
+		&:hover{
+			color: #FFC41E;
+		}
+	}
+	&__img {}
+	&__right-columns {}
+	&__right-top-column {
+		padding-bottom: 50px;
+	}
+	&__social {
+		padding-top: 15px;
+		display: flex;
+		justify-content: space-between;
+		width: 200px;
+	}
+	&__right-bottom-column {}
+	&__input {
+		display: flex;
+		width: 255px;
+		padding-top: 25px;
+	}
+	&__email{
+		input{
+			height: 35px;
+			padding-left: 10px;
+			padding-right: -5px;
+		}
+	}
+	&__image{
+		background: red;
+		padding: 10px;
+		padding-bottom: 5px;
+	}
+	&__submit{
+		background: url(../img/icons/Vector.svg) 0 0 no-repeat;
+	}
+}
+	.footer-conteiner {
+		display: flex;
+		justify-content: space-between;
+	}

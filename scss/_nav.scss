@@ -1,0 +1,39 @@
+.nav {
+	height: 90px;
+	border-bottom: 1px solid rgb(255, 255, 255);
+	padding: 0 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__logo {}
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		width: 590px;
+		margin-left: -6%;
+		a{
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 135%;
+			color: #FFFFFF;
+		}
+	}
+	&__search-lang {
+		display: flex;
+	}
+	&__search {
+		margin-left: -70px;
+		margin-top: 4px;
+	}
+	&__lang {margin-right: 10px;}
+	&__lang-text {
+		padding-top: 3px;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 135%;
+		color: #FFFFFF;
+	}
+}
+
